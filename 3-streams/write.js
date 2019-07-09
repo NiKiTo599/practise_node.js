@@ -14,7 +14,6 @@ function generateFile(lines, cb) {
       writable.end('last line');
       return;
     }
-
     writeToStream(writable, str, () => start(n - 1));
   }
   start(lines);
@@ -31,6 +30,6 @@ function writeToStream(stream, chunk, cb) {
 }
 
 const now = Date.now();
-generateFile(10 ** 6,
+generateFile(10 ** 9,
   () => console.log('time: ', (Date.now() - now) / 1000, 'sec')
   );
