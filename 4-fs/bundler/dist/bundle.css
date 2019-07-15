@@ -1,0 +1,14 @@
+/* #### CSS BUNDLER #### */
+
+/*module C:\Users\Nikita\practise_node.js\4-fs\bundler\src\1.css*/
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+/*module C:\Users\Nikita\practise_node.js\4-fs\bundler\src\2.css*/
+p {
+  display: inline;
+}
+/*module C:\Users\Nikita\practise_node.js\4-fs\bundler\src\3.css*/
+body {
+  background-color: #fff;
+}
